@@ -1,0 +1,14 @@
+{
+  "name": "hal",
+  "version": "1.0.0",
+  "description": "Discord bot for da bois",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "The Bois",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0"
+  }
+}
