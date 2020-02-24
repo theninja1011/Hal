@@ -17,6 +17,10 @@ bot.on('ready', () => {
 });
 
 bot.on('message', msg => {
+    // currently the bot is taking any message and processing it as a command, even replies from the bot itself
+    // there should be a command prefix that it looks for before processing as a command, eg. ! or *
+    // Note: common prefixes may already be in use by other bots
+    
     const args = msg.content.split(/ +/);
     const command = args.shift().toLowerCase();
     console.info(`Called command: ${command}`);
